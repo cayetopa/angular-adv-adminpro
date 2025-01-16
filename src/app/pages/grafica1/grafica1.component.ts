@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   ]
 })
 export class Grafica1Component {
-
+  public labels1: string[] = [
+    'Calzado',
+    'Camisas',
+    'Pantalones',
+  ];
+  public data1: number[] = [150, 300, 100] ;
 }
